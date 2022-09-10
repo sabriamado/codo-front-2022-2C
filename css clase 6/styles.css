@@ -1,0 +1,18 @@
+/*
+esto es un comentario
+esto es otro comentario
+*/
+
+/*todos los h1 del documento*/
+h1 {
+    color: blue;
+}
+
+/*
+selector {
+    atributo:valor;
+}
+*/
+h2 {
+    font-size: 45px;
+}

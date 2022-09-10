@@ -1,64 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-/*
-esto es un comentario
-esto es otro comentario
-*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+    <!--esto es un comentario-->
+    <style>
+        /* selector universal */
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
 
-/*todos los h1 del documento*/
-/*selector por tipo(etiqueta)*/
-h1 {
-    color: blue;
-}
+    <main>
+        <section>
+    <!--si pongo inline le gana al externo y al interno-->
+    <h1 style="color: aqua;">Clase6 CSS</h1>
+    <h2>Soy un subtitulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam veritatis magni ipsam ducimus corporis ab nisi? Necessitatibus dolore itaque minus sequi sint, deleniti iste ratione corrupti eius fugiat quibusdam quis.</p>
+    <p id="parrafoAzul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus minus iste commodi fuga sapiente quae labore temporibus praesentium possimus in. Laudantium placeat harum, minus voluptatum voluptatem laboriosam dolorem consequuntur mollitia.</p>
+    <p class="claseparrafoAzul">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt corporis at suscipit ea, culpa recusandae illum, hic sapiente numquam optio quis? Tenetur animi laudantium esse id accusantium molestiae, maxime voluptatem.</p>
+        </section>
+        <br>
+        <section>
+            <div class="caja">
+                <h3>Subtitulo 3</h3>
+                <p class="textoBold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eius ipsum velit assumenda porro, ab et esse! Amet assumenda labore earum ipsum. Non, sed laboriosam error aliquam illo accusamus fugiat.</p>
+                <p class="textoitalic">Lorem <i>ipsum</i> dolor sit amet consectetur adipisicing elit. Asperiores, ex praesentium nam doloremque ipsa sint esse accusamus nesciunt. Aut alias, enim eveniet quo culpa sit sequi. Quis nostrum recusandae cumque?</p>
+            </div>
+        </section>
 
-/*selector {
-    atributo:valor;
-}
-*/
-
-h2 {
-    color: rgb(100,50,100);
-    font-size: 25px;
-}
-p {
-    color: brown;
-}
-
-/*selector por ID*/
-#parrafoAzul {
-    color: blue;
-}
-
-/*selector por clase*/
-.claseparrafoAzul {
-    color: cadetblue;
-}
-
-.caja {
-    background-color: aqua;
-    /*height: 100px;*/
-    font-size: 16px;
-}
-
-.caja p {
-    color: black;
-}
-
-.textoitalic {
-    font-style: italic;
-}
-
-.textoBold {
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-}
-
-/*fuente externa*/
-* {
-    font-family: 'Roboto', sans-serif;
-}
-
-/*colores*/
-/*RGB(red,green,blue)*/
-/*RGB(0,0,0)*/
-/*RGB(100,50,100)*/
-/*RGB(255,255,255)*/
+        <section>
+            <p class="textoitalic textoBold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eos, adipisci molestiae qui est numquam eius expedita earum exercitationem dignissimos illum fugit tempore porro iusto aspernatur incidunt possimus quaerat pariatur.</p>
+        </section>
+    </main>
+</body>

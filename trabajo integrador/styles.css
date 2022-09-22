@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: #373C45;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    padding-left: 100px;
+}
+
+.tarjetas
+{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 18rem;
+}
+
+
+h6 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+.container {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+
+.playa {
+    width: 100%
+}
+
+.octubre {
+    background-color: gray;
+    color: white;
+    align-items: flex-end;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    background-color: #242C57;
+}
+
+.opciones {
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
